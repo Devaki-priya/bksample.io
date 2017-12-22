@@ -1,0 +1,16 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #ff5c40;
+}
+.icon{
+		 position: absolute;
+		 top: 50%;
+		 height: 50%;
+		 transform: translate(-50%,-50%);
+		 width: 80px;
+		 height: 80px;
+		 cursor:pointer;
+		 background: #000;
+	 }
+	 

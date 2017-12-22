@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title> BK STUDIOS </title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="images/logo.png" type="image/gif" sizes="9x9">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/aos.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+
+
+  <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+  <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+  <script src="js/modernizr.js"></script> <!-- Modernizr -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+    <script src="//storage.googleapis.com/vrview/2.0/build/vrview.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+  
+  $('.set').click(function(){
+    
+    /// when click on each + icon, how to get the text from the div///
+    var text = $(this).parent('.first').find('span').text();
+    $('#cc').text(text);
+  })
+  
+});
+  </script>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#mypage']").on('click', function(event) {
+
+   // Make sure this.hash has a value before overriding default behavior
+  if (this.hash !== "") {
+
+    // Prevent default anchor click behavior
+    event.preventDefault();
+
+    // Store hash
+    var hash = this.hash;
+
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 900, function(){
+
+      // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+      });
+    } // End if
+  });
+})
+</script>
+  
+
+  
+  <style type="text/css">
+
+  @font-face{
+      font-family: "theboldfont";
+      src:url("font/theboldfont.ttf");
+    }
+     @font-face{
+      font-family: "Montserrat-Regular";
+      src:url("font/Montserrat-Regular.ttf");
+    }
+   
+  *{
+         margin:0;
+         padding:0;
+         font-family: "Montserrat-Regular";
+        text-transform: capitalize;
+     }
+     
+     @media screen and (max-width:768px )  {
+      .image3{
+        width: 330px;
+        height: 500px;
+        left: -100px;
+
+      }
+      .c1{
+        position: absolute;    width:250px;  height: 400px;  z-index: 27;
+
+
+      }
+      
+      .c2{
+        position: absolute;  left: 0;
+        top:120px;  width: 200px;  height: 250px;  z-index: 28;
+
+      }
+.ser{
+      height: 500px;
+      margin: auto;
+      width: 500px;
+      overflow: hidden;
+
+    }
+    
+    .title{
+       position: absolute;
+      left: 0;
+      text-align: center;
+      width: 20px;
+    }
+    .title a{
+      display: block;
+      color: #fff;
+      padding: 20px;
+      font-size: 10px;
+      text-decoration:none;
+
+    }
+    .ser ul:hover li{
+      width: 60px;
+    }
+    
+
+
+
+      .ser li{
+
+      height:  250px;
+     display: block;
+      position: relative;
+      float: left;
+      border-left: 1px solid #DDD;
+      transition: all 0.5s;
+    }
+.ser ul li:hover{
+      height: 300px;
+    }
+
+     }
+      @media screen and (max-width:480px){
+     
+        .image3{
+
+        width: 180px;
+        height: 300px;
+      }
+        .c1{
+          position: absolute;  left: 200px;
+  width:150px;  height: 266px;  
+
+
+      }
+      
+      .c2{
+        position: absolute;   margin-left: 150px;
+        top:20px;  width: 100px;  height: 20px;  
+        
+      }
+        .ser{
+      height: 300px;
+      margin: auto;
+      width: 450px;
+      overflow: hidden;
+
+    }
+    
+    .title{
+       position: absolute;
+      left: 0;
+      text-align: center;
+      width: 20px;
+    }
+    .title a{
+      display: block;
+      color: #fff;
+      padding: 20px;
+      font-size: 10px;
+      text-decoration:none;
+
+    }
+        .ser li{
+
+     height: 120px;
+     display: block;
+      position: relative;
+      float: left;
+      border-left: 1px solid #DDD;
+      transition: all 0.5s;
+    }
+      .ser ul li:hover{
+      height: 200px;
+    }
+
+     }
+   
+   .content{
+      position: fixed;
+      top:50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      text-align: center;
+      bottom: 10%;
+    }
+    .content h1{
+ text-transform: uppercase;
+    font-family: "theboldfont";
+    font-size: 5em;
+    }
+    .content p{
+ text-transform: uppercase;
+    font-family: "Montserrat-Regular";
+    font-size: 2em;
+    }
+    /*a-scene {
+     display: block; 
+     width: 50%
+       
+         }*/
+
+#about h2{
+  font-family: theboldfont;
+  text-transform: capitalize;
+  font-size: 25px;
+     padding-left: 70px;
+     padding-top: 40px;
+}
+#about p{
+
+  padding-top: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+  text-transform: capitalize;
+  line-height: 1.5;
+  text-align: justify;
+  font-family: "Montserrat-Regular";
+  font-size: 18px;
+  
+  }
+  #about img{
+    margin-top: 100px;
+  }
+#services{
+  padding-top: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.centered {
+
+  text-transform: uppercase;
+  color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.centered a{
+
+
+  text-transform: uppercase;
+  text-decoration-color: #fff;
+}
+.image1 img{
+  overflow: hidden;
+  margin-left: 1000px;
+  max-width: 100%;
+  max-height: 100%;
+  transition: 0.75s;
+}
+.image1:hover img{
+  overflow: hidden;
+  transform: scale(1.1);
+}
+.image2 img{
+  overflow: hidden;
+
+  max-width: 100%;
+  max-height: 100%;
+  transition: 0.75s;
+}
+.image2:hover img{
+  overflow: hidden;
+  transform: scale(1.1);
+}
+.image3 img{
+  overflow: hidden;
+
+  max-width: 100%;
+  max-height: 100%;
+  transition: 0.75s;
+}
+.image3:hover img{
+  overflow: hidden;
+  transform: scale(1.1);
+}
+.i1 img{
+  overflow: hidden;
+
+  max-width: 100%;
+  max-height: 100%;
+  transition: 0.75s;
+}
+.i1:hover img{
+  overflow: hidden;
+  transform: scale(1.1);
+}
+.i2 img{
+  overflow: hidden;
+
+  max-width: 100%;
+  max-height: 100%;
+  transition: 0.75s;
+}
+.i2:hover img{
+  overflow: hidden;
+  transform: scale(1.1);
+}
+.i3 img{
+  overflow: hidden;
+
+  max-width: 100%;
+  max-height: 100%;
+  transition: 0.75s;
+}
+.i3:hover img{
+  overflow: hidden;
+  transform: scale(1.1);
+}
+.i4 img{
+  overflow: hidden;
+
+  max-width: 100%;
+  max-height: 100%;
+  transition: 0.75s;
+}
+.i4:hover img{
+  overflow: hidden;
+  transform: scale(1.1);
+}
+.i5 img{
+  overflow: hidden;
+
+  max-width: 100%;
+  max-height: 100%;
+  transition: 0.75s;
+}
+.i5:hover img{
+  overflow: hidden;
+  transform: scale(1.1);
+}
+.i6 img{
+  overflow: hidden;
+
+  max-width: 100%;
+  max-height: 100%;
+  transition: 0.75s;
+}
+.i6:hover img{
+  overflow: hidden;
+  transform: scale(1.1);
+}
+
+.ab img{
+  overflow: hidden;
+
+  max-width: 100%;
+  max-height: 100%;
+  transition: 0.75s;
+}
+.ab:hover img{
+  overflow: hidden;
+  transform: scale(1.1);
+}
+
+
+  
+#mycarousel{
+  background-color: black;
+  font-family: Montserrat-Regular;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: white;
+}
+.testi{
+  background-color: black;
+  font-family: Montserrat-Regular;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: white;
+}
+.first{
+
+  
+  background-color: rgba(204, 0, 102, 0);
+    border: 2px solid #000;
+    height:150px;
+    width:150px;
+    -webkit-border-radius:75px;
+    -moz-border-radius:75px;
+    cursor: pointer;
+    color: black;
+}
+
+#cc{
+  margin-left: 500px;
+  width:300px;
+  height:100px;
+   color: #000;
+   font-size: 15px;
+}
+
+.set{
+  cursor:pointer;
+  color:#000;
+  font-size:15px;
+  float:right;
+  width: 10px;
+  height: 5px;
+  margin-top: 60px;
+  margin-right: 100px;
+  text-align: center;
+  
+ 
+}
+
+.head{
+  color: black;
+  margin-left: 550px;
+  font-size: 30px;
+}
+.ser{
+      width: 100%;
+      margin: auto;
+      height: 500px;
+      overflow: hidden;
+
+    }
+    .ser li{
+
+      width: 325px;
+     display: block;
+      position: relative;
+      float: left;
+      border-left: 1px solid #DDD;
+      transition: all 0.5s;
+    }
+    .title{
+       position: absolute;
+      left: 0;
+      text-align: center;
+      width: 40px;
+    }
+    .title a{
+      display: block;
+      color: #fff;
+      padding: 20px;
+      font-size: 18px;
+      text-decoration:none;
+
+    }
+    .ser ul:hover li{
+      width: 60px;
+    }
+    .ser ul li:hover{
+      width: 700px;
+    }
+
+
+</style>
+</head>
+<body id="mypage" data-spy="scroll" data-target=".navbar" data-offset="60">
+  <div class="fullpage">
+  
+
+  <nav>
+    
+    <ul class="cd-primary-nav">
+      <li class="list"><a onMouseOver="this.style.color='black'" on onMouseOut="this.style.color='white'" style="text-decoration: none; font-family:theboldfont; font-size:25px; color: white; " href="#home">HOME</a></li>
+      <li class="list"><a onMouseOver="this.style.color='black'" onMouseOut="this.style.color='white'" style="text-decoration: none; font-family:theboldfont; font-size:25px;color: white;" href="#about">ABOUT</a></li>
+      <li class="list"><a onMouseOver="this.style.color='black'" onMouseOut="this.style.color='white'" style="text-decoration: none; font-family:theboldfont; font-size:25px; color: white; " href="#works">WORKS</a></li>
+      <li class="list"><a onMouseOver="this.style.color='black'" onMouseOut="this.style.color='white'" style="text-decoration: none; font-family:theboldfont; font-size:25px; color: white; " href="#gMontserrat-Regulary">GALLERY</a></li>
+      <li class="list"><a onMouseOver="this.style.color='black'" onMouseOut="this.style.color='white'" style="text-decoration: none; font-family:theboldfont; font-size:25px; color: white;" href="#contact">CONTACT</a></li>
+      <li class="list"><a onMouseOver="this.style.color='black'" onMouseOut="this.style.color='white'"  style="text-decoration: none; float: left;  text-align: center; padding: 16px; list-style-type: none; font-size:20px;  color: white; font-family:theboldfont; " href="#0"><i class="fa fa-facebook-square"></i></a></li>
+      <li class="list"><a onMouseOver="this.style.color='black'" onMouseOut="this.style.color='white'"  style="text-decoration: none; float: right;  text-align: center; padding: 16px; list-style-type: none;  font-size:20px;  color: white; font-family:theboldfont;" href="#0"><i class="fa fa-twitter" ></i></a></li>
+      <li class="list"><a onMouseOver="this.style.color='black'" onMouseOut="this.style.color='white'"  style="text-decoration: none; float: left; font-family:theboldfont;  text-align: center; padding: 16px; list-style-type: none;   font-size:20px;  color: white; " href="#0"><i class="fa fa-instagram" ></i></a></li>
+     <li class="list"><a onMouseOver="this.style.color='black'" onMouseOut="this.style.color='white'"  style="text-decoration: none; float: right; font-family:theboldfont; text-align: center; padding: 16px;list-style-type: none;  font-size:20px;  color: white; " href="#0"><i class="fa fa-rss-square" ></i></a></li>
+
+    </ul>
+  </nav>
+  <div class="cd-overlay-nav">
+    <span></span>
+  </div> <!-- cd-overlay-nav -->
+
+  <div class="cd-overlay-content">
+    <span></span>
+  </div> <!-- cd-overlay-content -->
+
+  <a href="#" class="cd-nav-trigger">Menu<span class="cd-icon"></span></a>
+
+  
+<div class="section" id="vrview">
+  <iframe
+  width="100%"
+  height="600px"
+   src="https://devaki-priya.github.io/vrview/?image=beach.jpg">
+</iframe>
+<div class="content text-center" style="position: absolute;
+    font-family: theboldfont; color:white; font-weight: bolder; " >
+  <h1 > BK STUDIOS <sup>™</sup> </h1>
+  <br><p style="letter-spacing: 6px; text-transform: uppercase; font-family:Montserrat-Regular">pvt. ltd</p><br>
+  
+</div>
+</div>
+
+<div class="container quote">
+  <h2 class="col-lg-12" style=" font-family: theboldfont;
+  margin-top: -58px;
+  font-size: 20px; font-size: 30px; text-transform: capitalize; position: relative; color:white; "> It's Not Just About Business,</h2> <br> <h2 class="col-lg-12" style=" font-family: theboldfont;
+  margin-top: -38px;
+  font-size: 20px; font-size: 30px; text-transform: capitalize; position: relative;">It's All About Relationships.</h2>
+</div>
+
+
+<div class=" container" id="about">
+    <div class="row">
+             <div class="col-sm-7 text-justify" data-aos="fade-up" data-aos-duration="3000">
+               <h2 style="margin-top: 50px; line-height: 1;"> Who We Are?</h2>
+               <p>
+“Uniqueness has always been a cherry upon icing for us”
+We stretch our body for best angles. We stop breathing for best timings. We become rigid for best shots. We crush our brain like sugar cane for best creativities. We shout, we scream, we even dictate, just to make the happening a perfect one! This attitude is what separates us from others. It also gives us access to take the Next Level Photography which is our mission on earth".</p>
+            </div>
+            <div class="col-lg-5 ab" data-aos="fade-up" data-aos-duration="3000" >
+                   <img src="images/beachbw.jpg" onmouseover="this.src='images/about.jpg'" onmouseout="this.src='images/beachbw.jpg'" width="100%" height="80%" alt="img" />
+            </div>
+      </div>
+  </div>
+
+  
+<div class="container  text-center ser" >
+  <h2 class="text-center" id="works" data-aos="fade-up" data-aos-duration="3000" style="font-family: theboldfont;" >WORKS</h2>
+    
+  <div class="row">
+    <ul>
+    <li>
+      <div class="title col-sm-12">
+        <a href="#photography"> <h2 style="font-family: Montserrat-Regular"> PHOTOGRAPHY </h2>
+      </div>
+      <img src="images/resibw1.jpg"  onmouseover="this.src='images/resized1.jpg'" onmouseout="this.src='images/resibw1.jpg'"  />
+      </a>
+    </li>
+   <li>
+     <div class="title  col-sm-12">
+        <a href="#advertising"> <h2 style="font-family: Montserrat-Regular"> ADVERTISING </h2>
+      </div>
+      <img src="images/resibw2.jpg" onmouseover="this.src='images/resized2.jpg'" onmouseout="this.src='images/resibw2.jpg'"  />
+     </a>
+      
+    </li>
+     <li>
+       <div class="title  col-sm-12"  >
+        <a href="#filmmaking"> <h2 style="font-family: Montserrat-Regular"> FILM&nbsp;MAKING </h2>
+      </div>
+      <img src="images/resibw3.jpg" onmouseover="this.src='images/resized3.jpg'" onmouseout="this.src='images/resibw3.jpg'"  />
+     </a>
+      
+    </li>
+</ul>
+  </div>
+</div>
+
+<div class="container" id="gMontserrat-Regulary">
+  <h2 style="text-align: center; font-family: theboldfont;">GALLERY</h2>  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel" >
+    <!-- Indicators -->
+   
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner"  >
+      <div class="item active">
+        <img src="images\galbw.jpg" onmouseover="this.src='images/bk1.jpg'" onmouseout="this.src='images/galbw.jpg'" style="width:100%;height: 500px;">
+      </div>
+      <div class="item ">
+        <img src="images\babybw.jpg"onmouseover="this.src='images/bk3.jpg'" onmouseout="this.src='images/babybw.jpg'" style="width:100%;height: 500px;">
+      </div>
+      <div class="item ">
+        <img src="images\marbw.jpg" onmouseover="this.src='images/bk8.jpg'" onmouseout="this.src='images/marbw.jpg'" style="width:100%;height: 500px;">
+      </div>
+      <div class="item ">
+        <img src="images\mar2bw.jpg" onmouseover="this.src='images/bk10.jpg'" onmouseout="this.src='images/mar2bw.jpg'" style="width:100%;height: 500px;">
+      </div>
+      <div class="item ">
+        <img src="images\bk19.jpg" onmouseover="this.src='images/bk19.jpg'" onmouseout="this.src='images/bk19.jpg'" style="width:100%;height: 500px;">
+      </div>
+      <div class="item ">
+        <img src="images\filmbw.jpg" onmouseover="this.src='images/bk15.jpg'" onmouseout="this.src='images/filmbw.jpg'" style="width:100%;height: 500px;">
+      </div>
+
+      
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+
+<div class="container text-center" id="photography"  >
+  
+  <h2 class="text-center" data-aos="fade-up" data-aos-duration="3000" style="font-family: theboldfont; text-transform: capitalize; font-size: 45px;  top: -30px;  
+ " >Capture Your <br>Favorite Moments</h2>
+  
+  <div class="row">
+    
+    
+
+          
+    
+    <div class="col-sm-6">
+      
+      
+        <p class="text-align-center" style=" padding-top: 10px;
+  padding-left: 70px;
+  padding-right: 70px;
+  text-transform: capitalize;
+  line-height: 1.5;
+  text-align: justify;
+  font-family: Montserrat-Regular;
+  font-size: 20px;"  data-aos="fade-up" data-aos-duration="3000">
+  <b>Photography</b><br>“WE DONOT JUST CAPTURE PHOTOS; WE MAKE SURE YOU RELIVE THE MOMENT!!” Mastering the art of capturing light since we have evolved. We have always exerted ourselves to frame the best happening in the bestest of its own way just for you. We do induce you to retain your originality and there we stand apart! SAY CHEESE & ENJOY CHEERS. Feel submerged in the way we freeze the occasion.</p>
+
+    </div>
+    
+    <div class="col-sm-6 image3"  data-aos="fade-up"
+     data-aos-duration="3000">
+      <img src="images\cam1.jpg" class="c1" onmouseover="this.src='images/p2.jpg'" onmouseout="this.src='images/cam1.jpg'" width="100%" height="500px"  style="position: absolute;  left: 200px;
+  width:350px;  height: 566px;  z-index: 27;">
+      <img src="images\cam2.jpg"  class="c2" onmouseover="this.src='images/p1.jpg'" onmouseout="this.src='images/cam2.jpg'" width="80%"  height="500px" style="position: absolute;  left: 0;
+        top:120px;  width: 300px;  height: 350px;  z-index: 28;">
+        </div>
+
+  </div>
+</div>
+
+
+
+<div class="container" id="advertising">
+    <div class="row">
+             
+            <div class="col-lg-7 ab" data-aos="fade-up" data-aos-duration="3000" >
+                   <img src="images/carbw.jpg" width="100%" height="100%" onmouseover="this.src='images/bk14.jpg'" onmouseout="this.src='images/carbw.jpg'" alt="img" style="padding-top: 50px; padding-left: 50px; " />
+            </div>
+                         <div class="col-sm-5 col-md-12 col-lg-5 text-justify" data-aos="fade-up" data-aos-duration="3000">
+               <h2 style="font-family: theboldfont; font-size: 40px; left: 0; text-transform: capitalize;"> Get Noticed In The Best Way You Can</h2>
+               <p style="font-family: Montserrat-Regular; font-size:20px; line-height: 1.5; "><b>Advertising</b><br>
+ADVERTISING IS THE BEST WAY OF PROMOTION. It etches the brand and in scripts the product. Advertising is what pioneers the marketing strategy. We are Peculiar in inheriting. Advertisement is the label to look into the quality of stuff. We offer the makeover of the advertisement in the most solitary way.</p>
+            </div>
+      </div>
+  </div>
+
+<div class="container" id="filmmaking">
+<div class="col-md-6">
+  <div class="row">
+    <h1 class="text-center" style="padding-top: 20px; padding-bottom: 20px;padding-left: 50px;   font-family: theboldfont;  font-size: 40px;  letter-spacing: 1px; text-transform: capitalize;" data-aos="fade-up" data-aos-duration="3000"> Camera Rolling, action<br> </h1>
+  </div>
+  <div class="row">
+    <p class="text-align-right" style=" text-align: left; padding-top: 20px; padding-bottom: 20px;padding-left: 50px;  line-height: 2;  font-family: Montserrat-Regular;  font-size: 20px;  px;" data-aos="fade-up" data-aos-duration="3000"> <b> Film Making </b><br>The world is a stage! We all play our roles as per the script that was written even before we born. God is the greatest director of all. No one can implicate God’s Creation but we try to match them. We may imitate real to reel but never try to duplicate it. We are dreamers, we dwell in thoughts, and we can't find the difference in real world and reel world. We are visionary. We live in a stage of Stupendous. We are in search of incredibleness. . We do it in a beautiful way. Our entire crew gives lives to the made film on celluloid. </p>
+  </div>
+  <div class="row i6">
+    <img src="images\film2bw.jpg" onmouseover="this.src='images/bk21.jpg'" onmouseout="this.src='images/film2bw.jpg'" width="100%" height="570px" style="padding-left: 50px; padding-top: 10px;" data-aos="fade-up" data-aos-duration="3000"/>
+  </div>
+</div>
+<div class="col-md-6">
+  <div class="row i5">
+    <img src="images\filmbw.jpg" onmouseover="this.src='images/bk15.jpg'" onmouseout="this.src='images/filmbw.jpg'" width="100%" height="635px" style="padding-top: 50px;" data-aos="fade-up" data-aos-duration="3000"/>
+  </div>
+  
+  <div class="row i4">
+    <img src="images\grfilmbw.jpg" onmouseover="this.src='images/bk20.jpg'" onmouseout="this.src='images/grfilmbw.jpg'" width="100%" height="500px"  data-aos="fade-up" data-aos-duration="3000"/>
+  </div>
+</div>
+
+  </div>
+  <div class="container-fluid text-center" id="whychooseus" >
+    <h2 class="text-center" style="font-family: theboldfont; font-weight: bolder; top:-10px;" > WHY CHOOSE US? </h2> 
+  <video src="choose copy_AME\main.mp4" width="100%" height="500px" autoplay="autoplay" preload="auto" loop></video>
+ 
+</div>
+
+<br>
+  <div class="testi container-fluid" style="height:200px;"  >
+    <h2 class="text-center" style="font-family: theboldfont;">WHAT PEOPLE SAY</h2>
+        <div id="mycarousel" class="carousel slide text-center"  style="height: 100px; " data-ride="carousel" >
+    
+         <div class="carousel-inner" role="listbox">
+      <div class="item active">
+       <h4 style="font-family: Montserrat-Regular; padding-top: 25px;">I am greatly impressed by the way,they handled the advertisement shoot.The video was fresh and had flair to it <br>
+         <span>Mr.Karthikeyan,GM</span></h4>
+       </div>
+       <div class="item">
+       <h4 style="font-family: Montserrat-Regular; padding-top: 25px;">Loved the way the team handled our entire family photo shoot.Right from helping us to colour co-ordinate <br>
+         <span>D.Chandrasekar,CEO-Decro</span></h4>
+       </div>
+      </div>
+      <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+      </a>
+    </div>
+    </div>
+  </div>
+
+<div class="container text-center" id="contact">
+    <h2 class="text-center" style="text-transform: uppercase; font-family: theboldfont"  data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom" data-aos-duration="2000" >CONTACT</h2>
+      <div class="row">
+      <div class="col-sm-5" style=" text-transform: uppercase; font-size:20px; font-family: Montserrat-Regular"  data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom" data-aos-duration="2000" >
+        <p  class="text-justify" style="text-transform: capitalize; font-size:22px;">REACH US AT</p>
+ <p  style="text-transform: capitalize; "> <span class="glyphicon glyphicon-map-marker"></span> 17/2A,2nd floor,Daaru complex,Gandhi road,Alwarthirunagar,Chennai-600087</p>  
+        <p   style="text-transform: capitalize; float: left;">&nbsp;  &nbsp; &nbsp;  &nbsp;<span class="glyphicon glyphicon-phone"></span>  Call Us-9042309516 &nbsp;</p>
+        
+<p style="text-transform: capitalize; float: left;"><span class="glyphicon glyphicon-envelope"></span>Mailid</p> 
+        </div>
+        <div class="col-sm-7 "  data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
+     <form action="contactform.php" method="POST">
+          <div class="row">
+
+          <div class="col-sm-6 form-group"  data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom" data-aos-duration="2000" >
+            <input class="form-control" id="name" name="name" placeholder="NAME" type="text" required>
+                 </div>
+            <div class="col-sm-6 form-group"  data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
+            <input class="form-control" id="email" name="email" placeholder="EMAIL" type="text" required>
+                 </div>
+          </div>
+          <textarea class="form-control"  data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom" data-aos-duration="2000"  id="comments" name="comments" placeholder="comment" row="5"></textarea>
+          <br>
+          <div class="row">
+          <div class="col-sm-12 form-group"  data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom" data-aos-duration="2000" style="text-transform: uppercase;" >
+            <button class="btn btn-block pull-right" type="submit"> <h4 style="font-family: Montserrat-Regular"> SEND </h4> </button>
+            </div>
+
+          </div>
+       </form>
+        </div>
+      </div>
+    
+    </div>
+<div class="container" style="height:400px;width:100%;" id="map"></div>
+    <script>
+      function initMap() {
+
+
+        var styles = [
+  {
+    "featureType": "landscape",
+    "stylers": [
+      {
+        "hue": "#0049FF"
+      },
+      {
+        "saturation": -30.80000000000001
+      },
+      {
+        "lightness": -65.80000000000001
+      },
+      {
+        "gamma": 1
+      }
+    ]
+  },
+  {
+    "featureType": "road.highway",
+    "stylers": [
+      {
+        "hue": "#00FFE4"
+      },
+      {
+        "saturation": -100
+      },
+      {
+        "lightness": -54.800000000000004
+      },
+      {
+        "gamma": 1
+      }
+    ]
+  },
+  {
+    "featureType": "road.arterial",
+    "stylers": [
+      {
+        "hue": "#00FFFD"
+      },
+      {
+        "saturation": -93.6
+      },
+      {
+        "lightness": -31.400000000000006
+      },
+      {
+        "gamma": 1
+      }
+    ]
+  },
+  {
+    "featureType": "road.local",
+    "stylers": [
+      {
+        "hue": "#0002FF"
+      },
+      {
+        "saturation": -69.4
+      },
+      {
+        "lightness": 119.79999999999998
+      },
+      {
+        "gamma": 1
+      }
+    ]
+  },
+  {
+    "featureType": "water",
+    "stylers": [
+      {
+        "hue": "#00F0FF"
+      },
+      {
+        "saturation": 75
+      },
+      {
+        "lightness": -80.39999999999999
+      },
+      {
+        "gamma": 1
+      }
+    ]
+  },
+  {
+    "featureType": "poi",
+    "stylers": [
+      {
+        "hue": "#FF2300"
+      },
+      {
+        "saturation": 93.6
+      },
+      {
+        "lightness": 52
+      },
+      {
+        "gamma": 1
+      }
+    ]
+  }
+];
+           var uluru = {lat: 13.047283,lng: 80.185622};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 12,
+          center: uluru,        
+          styles: styles
+        });
+
+var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzlQUDSzSW2uSZNi_oxo8RzzeobqWumYk&callback=initMap">
+    </script>
+
+    <footer class="container-fluid text-center" style="height: 100px; background-color: black;"> 
+    <a href="#mypage" title="back to top">
+    <span class="glyphicon glyphicon-chevron-up" style="color: white; font-size:20px;"><br> <h2 style="font-family: theboldfont; text-decoration: none; color: white;"> BACK TO TOP </h2></span></a>
+    </footer>
+
+
+<header>
+    <a class="cd-logo" href="#0"><img src="images/logo.png" alt="Logo"></a>
+  </header>
+
+
+
+
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/velocity.min.js"></script>
+<script src="js/main.js"></script>
+   <script  src="js/aos.js"></script>
+   <script type="text/javascript">
+     
+     AOS.init();
+   </script>
+</body>
+</html>

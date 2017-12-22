@@ -1,0 +1,10 @@
+@font-face{
+	font-family: "theboldfontimport";
+	src: url(theboldfont.ttf);
+
+}
+
+div{
+	font-family: theboldfont;
+	text-transform: uppercase;
+}

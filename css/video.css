@@ -1,0 +1,414 @@
+.{
+	margin: 0;
+	padding: 0;
+}
+.bg-cover{
+	width: 100%;
+	height:500px;
+	background-size: auto;
+}
+#video-container{
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+	position: relative;
+}
+
+video{
+	width: auto;
+	height: auto;
+	min-width: 100%;
+	min-height: 100%;
+	position: absolute;
+	top: 50%;
+    left: 50%;
+	bottom: 0;
+	right: 0;
+	z-index: =-1;
+	position: absolute;
+    transform: translate(-50%,-50%);
+	}
+
+.content{
+	text-align: center;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	width:1000px;
+	transform:translate(-50%,-50%);
+	
+	
+}
+.content h1{
+	font-family: arial;
+	font-size: 5em;
+	margin: 10px 0;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.content h3{
+	font-family: arial;
+	font-size: 1em;
+	margin: 10px 0;
+	color: #fff;
+	
+}
+.text{
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-family: verdana;
+}
+
+.text a{
+
+	position: relative;
+	text-decoration: none !important;
+	width: 250px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	display: inline-block;
+	font-size: 20px;
+	color:white;
+
+}
+
+.text a:before{
+	content: '';
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	width: 0;
+	height: 0;
+	background: transparent;
+	border: 2px solid transparent;
+}
+
+.text a:hover:before{
+
+	animation: animate 1s linear forwards;
+}
+
+@keyframes animate{
+	0%
+	{
+		width: 0;
+		height: 0;
+		border-top-color:white; 
+		border-right-color:transparent; 
+		border-bottom-color:transparent; 
+		border-left-color:transparent; 
+	}
+	50%
+	{
+		width: 100%;
+		height: 0;
+		border-top-color:white; 
+		border-right-color:white; 
+		border-bottom-color:transparent; 
+		border-left-color:transparent; 
+	}
+	100%
+	{
+		width: 100%;
+		height: 100%;
+		border-top-color:white; 
+		border-right-color:white; 
+		border-bottom-color:transparent; 
+		border-left-color:transparent; 
+	}
+}
+
+
+.text a:after{
+	content: '';
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	width: 0;
+	height: 0;
+	background: transparent;
+	border: 2px solid transparent;
+}
+
+.text a:hover:after{
+
+	animation: animate2 1s linear forwards;
+	
+}
+
+@keyframes animate2{
+	0%
+	{
+		width: 0;
+		height: 0;
+		border-top-color:transparent; 
+		border-right-color:transparent; 
+		border-bottom-color:transparent; 
+		border-left-color:white; 
+	}
+	50%
+	{
+		width:0;
+		height: 100%;
+		border-top-color:transparent; 
+		border-right-color:transparent; 
+		border-bottom-color:white; 
+		border-left-color:white; 
+	}
+	100%
+	{
+		width: 100%;
+		height: 100%;
+		border-top-color:transparent; 
+		border-right-color:transparent; 
+		border-bottom-color:white; 
+		border-left-color:white; 
+	}
+}
+
+
+
+
+
+.center{
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-family: verdana;
+}
+
+.center a{
+
+	position: relative;
+	text-decoration: none !important;
+	width: 250px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	display: inline-block;
+	font-size: 20px;
+	color:white;
+}
+
+.center a:before{
+	content: '';
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	width: 0;
+	height: 0;
+	background: transparent;
+	border: 2px solid transparent;
+}
+
+.center a:hover:before{
+
+	animation: animate 1s linear forwards;
+}
+
+@keyframes animate{
+	0%
+	{
+		width: 0;
+		height: 0;
+		border-top-color:white; 
+		border-right-color:transparent; 
+		border-bottom-color:transparent; 
+		border-left-color:transparent; 
+	}
+	50%
+	{
+		width: 100%;
+		height: 0;
+		border-top-color:white; 
+		border-right-color:white; 
+		border-bottom-color:transparent; 
+		border-left-color:transparent; 
+	}
+	100%
+	{
+		width: 100%;
+		height: 100%;
+		border-top-color:white; 
+		border-right-color:white; 
+		border-bottom-color:transparent; 
+		border-left-color:transparent; 
+	}
+}
+
+
+.center a:after{
+	content: '';
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	width: 0;
+	height: 0;
+	background: transparent;
+	border: 2px solid transparent;
+}
+
+.center a:hover:after{
+
+	animation: animate2 1s linear forwards;
+	
+}
+
+@keyframes animate2{
+	0%
+	{
+		width: 0;
+		height: 0;
+		border-top-color:transparent; 
+		border-right-color:transparent; 
+		border-bottom-color:transparent; 
+		border-left-color:white; 
+	}
+	50%
+	{
+		width:0;
+		height: 100%;
+		border-top-color:transparent; 
+		border-right-color:transparent; 
+		border-bottom-color:white; 
+		border-left-color:white; 
+	}
+	100%
+	{
+		width: 100%;
+		height: 100%;
+		border-top-color:transparent; 
+		border-right-color:transparent; 
+		border-bottom-color:white; 
+		border-left-color:white; 
+	}
+}
+
+
+.contentone{
+	text-align: justify;
+	position: absolute;
+	top: 10%;
+	left: 60%;
+	width:1000px;
+	transform:translate(-50%,-50%);
+
+	
+	
+}
+
+
+.contentone h3{
+	font-family: arial;
+	font-size: 1em;
+	margin: 50px 80px 10px 10px 10px;
+	color: #fff;
+	
+}
+
+.contentone ul{
+	position: absolute;
+	top: 0;
+	left: 80%;
+	transform: translate(-50%,-50%);
+	margin: -400px;
+	padding: 0;
+	display: flex;
+	text-align: center;
+}
+.contentone ul li{
+	list-style: none;
+	font-family: arial;
+	font-size: 5em;
+	letter-spacing: 15px;
+	color:#484848;
+	text-shadow: none;
+	animation: animate3 1s infinite linear
+}
+@keyframes animate3{
+	0%{
+		color:#484848;
+		text-shadow: none;
+
+	}
+	18%{
+		color:#484848;
+		text-shadow: none;
+		
+	}
+	20%{
+		color: #fff900;
+		text-shadow: 0 0 7px #fff900,0 0 20px #ff6c00;
+		
+	}
+	30%{
+		color:#484848;
+		text-shadow: none;
+		
+	}
+	35%{
+		color: #fff900;
+		text-shadow: 0 0 7px #fff900,0 0 20px #ff6c00;
+		
+		
+	}
+	70%{
+		color:#484848;
+		text-shadow: none;
+		
+	}
+	85%{
+		color: #fff900;
+		text-shadow: 0 0 7px #fff900,0 0 20px #ff6c00;
+		
+		
+	}
+	100%{
+		color:#484848;
+		text-shadow: none;
+	}
+}
+
+.contentone ul li:nth-child(1){
+	animation-delay: .2s;
+}
+.contentone ul li:nth-child(2){
+	animation-delay: .4s;
+}
+.contentone ul li:nth-child(3){
+	animation-delay: .6s;
+}
+.contentone ul li:nth-child(4){
+	animation-delay: .8s;
+}
+.contentone ul li:nth-child(5){
+	animation-delay: 1s;
+}
+.contentone ul li:nth-child(6){
+	animation-delay: 1.2s;
+}
+.contentone ul li:nth-child(7){
+	animation-delay: 1.4s;
+}
+.contentone ul li:nth-child(8){
+	animation-delay: 1.6s;
+}
+.contentone ul li:nth-child(9){
+	animation-delay: 1.8s;
+}
+.contentone ul li:nth-child(10){
+	animation-delay: 2s;
+}
+.contentone ul li:nth-child(11){
+	animation-delay: 2.2s;
+}
+
+
+
+
+

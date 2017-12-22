@@ -1,0 +1,85 @@
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.5-c002 1.148022, 2012/07/15-18:06:45        ">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+    xmlns:tiff="http://ns.adobe.com/tiff/1.0/"
+    xmlns:exif="http://ns.adobe.com/exif/1.0/"
+    xmlns:aux="http://ns.adobe.com/exif/1.0/aux/"
+    xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/"
+    xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+    xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
+   xmp:Rating="0"
+   xmp:ModifyDate="2017-05-27T06:34:44.00"
+   xmp:CreateDate="2017-05-27T06:34:44.00"
+   xmp:MetadataDate="2017-12-11T11:15:40+05:30"
+   tiff:Make="Canon"
+   tiff:Model="Canon EOS 5D Mark III"
+   tiff:Orientation="1"
+   exif:ExifVersion="0230"
+   exif:ExposureTime="1/400"
+   exif:ShutterSpeedValue="8643856/1000000"
+   exif:FNumber="16/1"
+   exif:ApertureValue="8/1"
+   exif:ExposureProgram="1"
+   exif:SensitivityType="2"
+   exif:RecommendedExposureIndex="320"
+   exif:ExposureBiasValue="0/1"
+   exif:MaxApertureValue="3/1"
+   exif:MeteringMode="5"
+   exif:FocalLength="70/1"
+   exif:CustomRendered="0"
+   exif:ExposureMode="1"
+   exif:WhiteBalance="0"
+   exif:SceneCaptureType="0"
+   exif:FocalPlaneXResolution="52428800/32768"
+   exif:FocalPlaneYResolution="52428800/32768"
+   exif:FocalPlaneResolutionUnit="3"
+   exif:DateTimeOriginal="2017-05-27T06:34:44.00"
+   aux:SerialNumber="068024017158"
+   aux:LensInfo="70/1 200/1 0/0 0/0"
+   aux:Lens="EF70-200mm f/2.8L IS II USM"
+   aux:LensID="251"
+   aux:LensSerialNumber="000044a28f"
+   aux:ImageNumber="0"
+   aux:ApproximateFocusDistance="506/100"
+   aux:FlashCompensation="0/1"
+   aux:Firmware="1.3.3"
+   photoshop:DateCreated="2017-05-27T06:34:44.00"
+   photoshop:SidecarForExtension="CR2"
+   photoshop:EmbeddedXMPDigest="AD0ACF660F79AC49FD004B2DD3BC0461"
+   xmpMM:DocumentID="9C55394FE87D712C2423EC17068A012F"
+   xmpMM:OriginalDocumentID="9C55394FE87D712C2423EC17068A012F"
+   xmpMM:InstanceID="xmp.iid:857a6872-1805-a64d-9c3a-37664cf3b61a"
+   dc:format="image/x-canon-cr2"
+   crs:RawFileName="ena.CR2"
+   crs:Version="8.4"
+   crs:GrainSeed="2846341138"
+   crs:HasSettings="False"
+   crs:HasCrop="False"
+   crs:AlreadyApplied="False">
+   <exif:ISOSpeedRatings>
+    <rdf:Seq>
+     <rdf:li>320</rdf:li>
+    </rdf:Seq>
+   </exif:ISOSpeedRatings>
+   <exif:Flash
+    exif:Fired="False"
+    exif:Return="0"
+    exif:Mode="2"
+    exif:Function="False"
+    exif:RedEyeMode="False"/>
+   <xmpMM:History>
+    <rdf:Seq>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="xmp.iid:857a6872-1805-a64d-9c3a-37664cf3b61a"
+      stEvt:when="2017-12-11T11:15:40+05:30"
+      stEvt:softwareAgent="Adobe Photoshop Camera Raw 8.4 (Windows)"
+      stEvt:changed="/metadata"/>
+    </rdf:Seq>
+   </xmpMM:History>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>
